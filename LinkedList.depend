@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1432121759 source:/home/jan/Desktop/C++ /CPP_Programs_from_book/LinkedList/main.cpp
+	<iostream>
+	<cstring>
+
