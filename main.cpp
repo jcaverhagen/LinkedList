@@ -29,9 +29,12 @@ int main()
         Person* p = new Person;
         p->name = inputData;
 
-        /// adding to beginning of list
-        p->nextPerson = firstPerson;
-        firstPerson = p;
+        /// adding to end of list
+        Person* person = firstPerson;
+        while(person->nextPerson != nullptr) {
+            person = person->nextPerson;
+        }
+        person->nextPerson = p;
     }
 
     ///loop through all names
