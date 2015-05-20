@@ -1,3 +1,0 @@
-# LinkedList
-
-LinkedList in C++
